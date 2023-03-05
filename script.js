@@ -60,8 +60,9 @@ let resolve=document.querySelector('.result')
     );
 let ok= alert(` la sommes des dé :${sumWithInitial}`)
 tableau=[]
-if(ok){
-
+let numberT=document.querySelectorAll('p')
+for(let i=0; i<numberT.length;i++){
+    numberT[i].textContent="0"
 
 }
 
