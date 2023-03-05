@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 45px;
+    border: 2px solid black;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.number{
+  width:60px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 5px ;
+  margin: 15px;
+margin-left: 80px;
+text-align: center;
+font-size: 45px;
+}
+
+.click{
+    padding: 35px;
+    margin-left: 90px;
+      
+}
+
+.result{
+    padding: 35px;
+    margin-left: 100px;
+      
+}
